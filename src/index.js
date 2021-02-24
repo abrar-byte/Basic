@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Calc from './Calc';
+import Hero from './Hero';
+// import Kalkulator from './Kalkulator';
+import Basic from './Basic'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Basic />
   </React.StrictMode>,
   document.getElementById('root')
 );
