@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Calc from './Calc';
-import Hero from './Hero';
+// import Hero from './Hero';
 // import Kalkulator from './Kalkulator';
 import Basic from './Basic'
 

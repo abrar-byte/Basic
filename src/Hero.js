@@ -7,7 +7,7 @@ export default class Hero extends Component {
   }
 
   componentDidUpdate() {
-    if (this.state.hasil == "") {
+    if (this.state.hasil === "") {
       this.setState({ hasil: <Miya /> })
       console.log('beerjs')
 

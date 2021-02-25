@@ -19,8 +19,8 @@ class Number extends Component {
       <button onClick={() => this.props.click(7)}>7</button>
       <button onClick={() => this.props.click(8)}>8</button>
       <button onClick={() => this.props.click(9)}>9</button><br />
-      <button onClick={() => tPada file App.js, ketiklah baris perintah berikut ini:this.props.click('=')}>=</button>
-    </div >
+      <button onClick={() => this.props.click('=')}>=</button>
+    </div>
   }
 }
 class Tambah extends Component {
@@ -67,7 +67,7 @@ class Kurang extends Component {
     </div>
   }
 }
-class Kalkulator extends Component {
+class App extends Component {
   state = {
     operator: null,
     hasil: 0
@@ -98,4 +98,4 @@ class Kalkulator extends Component {
   }
 }
 
-export default Kalkulator;
+export default App;
